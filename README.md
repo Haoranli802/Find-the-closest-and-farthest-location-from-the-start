@@ -31,14 +31,23 @@ The words Farthest Location, followed by a colon and space, followed by a descri
 
 (source from https://www.ics.uci.edu/~thornton/ics45c/ProjectGuide/)
 
-A complete example:
+A complete example
+input:
+
 33.9425/N 118.4081/W Los Angeles International Airport
+
 3
+
 20.8987/N 156.4305/W Kahului Airport
+
 47.4647/N 8.5492/E Zurich Airport
+
 23.4356/S 46.4731/W Sao Paolo-Guarulhos International Airport
 
-------------------------------------------------------------------
+output:
+
 Start Location: 33.9425/N 118.408/W (Los Angeles International Airport)
+
 Closest Location: 20.8987/N 156.43/W (Kahului Airport) (2483.3 miles)
+
 Farthest Location: 23.4356/S 46.4731/W (Sao Paolo-Guarulhos International Airport) (6164.9 miles)
